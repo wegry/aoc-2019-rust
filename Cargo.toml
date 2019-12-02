@@ -1,0 +1,7 @@
+[package]
+name = "aoc-2019-rust"
+version = "0.1.0"
+authors = ["Zach Wegrzyniak <zwegrzyniak@gmail.com>"]
+edition = "2018"
+
+[dependencies]
