@@ -43,6 +43,8 @@ pub fn challenge() -> Result<(), std::io::Error> {
         .flat_map(fuel_required)
         .sum();
 
+    println!("Day 1");
+
     println!("part 1 {}", fuel_requried_part1);
 
     let fuel_requried_part2: u64 = contents
