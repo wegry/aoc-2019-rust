@@ -5,3 +5,5 @@ authors = ["Zach Wegrzyniak <zwegrzyniak@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+itertools = "0.8"
+indextree = "4.0.0"
