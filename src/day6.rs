@@ -9,8 +9,6 @@ struct Orbit {
     orbited_by: BTreeSet<Orbit>,
 }
 
-type Tree = BTreeMap<String, BTreeSet<String>>;
-
 fn parse_into(input: &str) -> (Arena<String>, BTreeMap<String, NodeId>) {
     let connections: &mut Arena<String> = &mut Arena::new();
     let mut ids_by_name: BTreeMap<String, NodeId> = BTreeMap::new();

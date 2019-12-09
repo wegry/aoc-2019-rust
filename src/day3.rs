@@ -204,7 +204,7 @@ pub fn challenge() -> Result<(), std::io::Error> {
 
     println!("\nDay 3");
     let wires: Vec<Vec<Point>> = parse_lines(&contents);
-    // println!("Part 1: {:?}", part_1(wires.clone()).distance_from_center());
+    println!("Part 1: {:?}", part_1(wires.clone()).distance_from_center());
 
     println!("Part 2");
     //     assert_eq!(

@@ -15,6 +15,7 @@ fn main() -> Result<(), std::io::Error> {
 
     for c in challenges {
         c()?;
+        println!("")
     }
 
     Ok(())
